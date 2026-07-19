@@ -1,0 +1,15 @@
+# configs/config.yaml
+defaults:
+  - model: qwen_32b_coder      # Verweist auf configs/model/...
+  - prompt: no_shot            # Ist: 'no_shot', 'few_shot' oder 'cot'
+  - benchmark: lcquad_2_0
+  - _self_                     # Erlaubt das Überschreiben von Defaults in dieser Datei
+
+seed: 42
+schema_injection_depth: "pruned" # Ist: 'no_schema', 'pruned' oder 'full'
+
+execution:
+  mode: "testsuite"
+  dataset_path: "data/dump_lcquad_2_0.json"
+  delay_ms: 0
+  max_concurrent_tasks: 30
