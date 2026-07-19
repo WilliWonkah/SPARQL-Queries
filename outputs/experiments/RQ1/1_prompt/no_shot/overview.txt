@@ -1,0 +1,97 @@
+Overview NO SHOT Prompting:
+
+DAUER: ~1.5h
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+						RUN 1:
+
+EVALUATION SUMMARY
+========================================================
+Dataset Total:         30226
+Dropped:               6341 (20.98%)
+Evaluated Subset (N):  23885
+--------------------------------------------------------
+Strict Execution Accuracy:  0.2536
+Test-Suite Pass Rate:       0.3285
+Stratified TPR:             {'signal': 0.27906976744186046, 'noise_decoy': 0.26675123326286115, 'noise_stress': 0.2573502466525722, 'inversion': 0.29541610284167796, 'empty': 0.8747886371322287}
+Signal Accuracy:            0.2763
+Robustness Score:           0.3342
+Avg Jaccard Similarity:     0.3321
+Isomorphismus-Fehler:       0.00%
+Syntaktische Validität:	 99.53%
+--------------------------------------------------------
+ZUSÄTZLICHE METRIKEN & LOGS
+--------------------------------------------------------
+Schema-Konformität:    99.19%
+Halluzinationsrate:    0.81% (Vocabulary Fehler)
+Algebraische Äquivalenz: 0.00%
+Reification Mismatch Rate (bei False Negatives): 0.00%
+--------------------------------------------------------
+PERFORMANCE METRIKEN
+--------------------------------------------------------
+Avg TTFT (Latenz):     0.3121 s
+Avg Throughput (TPS):  12.57 tokens/s
+========================================================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+						RUN 2:
+
+EVALUATION SUMMARY
+========================================================
+Dataset Total:         30226
+Dropped:               6341 (20.98%)
+Evaluated Subset (N):  23885
+--------------------------------------------------------
+Strict Execution Accuracy:  0.2533
+Test-Suite Pass Rate:       0.3281
+Stratified TPR:             {'signal': 0.27855753783715226, 'noise_decoy': 0.2662551788281052, 'noise_stress': 0.2569544263126744, 'inversion': 0.29480404177059993, 'empty': 0.8746883056506487}
+Signal Accuracy:            0.2759
+Robustness Score:           0.3339
+Avg Jaccard Similarity:     0.3317
+Isomorphismus-Fehler:       0.00%
+Syntaktische Validität:     99.54%
+--------------------------------------------------------
+ZUSÄTZLICHE METRIKEN & LOGS
+--------------------------------------------------------
+Schema-Konformität:    99.16%
+Halluzinationsrate:    0.84% (Vocabulary Fehler)
+Algebraische Äquivalenz: 0.00%
+Reification Mismatch Rate (bei False Negatives): 0.00%
+--------------------------------------------------------
+PERFORMANCE METRIKEN
+--------------------------------------------------------
+Avg TTFT (Latenz):     0.3112 s
+Avg Throughput (TPS):  12.57 tokens/s
+========================================================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+						RUN 3:
+
+EVALUATION SUMMARY
+========================================================
+Dataset Total:         30226
+Dropped:               6341 (20.98%)
+Evaluated Subset (N):  23885
+--------------------------------------------------------
+Strict Execution Accuracy:  0.2536
+Test-Suite Pass Rate:       0.3283
+Stratified TPR:             {'signal': 0.27900879566982406, 'noise_decoy': 0.26661874154262516, 'noise_stress': 0.25737201172755975, 'inversion': 0.2950479976318349, 'empty': 0.874867892623124}
+Signal Accuracy:            0.2762
+Robustness Score:           0.3341
+Avg Jaccard Similarity:     0.3320
+Isomorphismus-Fehler:       0.00%
+Syntaktische Validität:99.52%
+--------------------------------------------------------
+ZUSÄTZLICHE METRIKEN & LOGS
+--------------------------------------------------------
+Schema-Konformität:    99.18%
+Halluzinationsrate:    0.82% (Vocabulary Fehler)
+Algebraische Äquivalenz: 0.00%
+Reification Mismatch Rate (bei False Negatives): 0.00%
+--------------------------------------------------------
+PERFORMANCE METRIKEN
+--------------------------------------------------------
+Avg TTFT (Latenz):     0.3121 s
+Avg Throughput (TPS):  12.58 tokens/s
+========================================================

@@ -1,0 +1,17 @@
+model:
+  model_name: /tmp/willilars/models/Qwen2.5-Coder-7B-Instruct
+  tensor_parallel_size: 1
+  temperature: 0.0
+  max_tokens: 2048
+prompt:
+  prompt_strategy: few_shot
+benchmark:
+  dataset_path: data/dump_lcquad_2_0.json
+  output_path: data/dump_lcquad_2_0.json
+seed: 42
+schema_injection_depth: pruned
+execution:
+  mode: testsuite
+  dataset_path: data/dump_lcquad_2_0.json
+  delay_ms: 0
+  max_concurrent_tasks: 30

@@ -1,0 +1,23 @@
+🚀 Starte Verifikation der generierten Test-Suites (Mock-Graphen)...
+=================================================================
+Führe Semantik-Test mit rdflib aus: src/data/verify_data.py
+=================================================================
+
+================================================================================
+🔍 ANALYSIERE DATENSATZ: data/dump_lcquad_2_0.json (SILENT MODE + LOGGING)
+================================================================================
+
+Verarbeite Test-Suites, bitte warten...
+
+================================================================================
+📊 ZUSAMMENFASSUNG FÜR: data/dump_lcquad_2_0.json
+Ursprüngliche Queries in JSON: 30226
+Aussortiert (Dirty Data/Syntax): 571
+Geprüfte Queries (N = UIDs):   29655
+--------------------------------------------------------------------------------
+❌ Fehlerhafte Queries (UIDs): 524 (1.77%)
+✅ Fehlerfreie Queries (UIDs): 29131 (98.23%)
+📁 Detailliertes Fehler-Log:   outputs/error_log_details.json
+================================================================================
+
+✅ Verifikation beendet. Ergebnisse in der Log-Datei (outputs/cluster_logs/verify_data_*.out) prüfen.

@@ -1,0 +1,4 @@
+- benchmark.dataset_path=data/dump_lcquad_2_0.json
+- prompt=few_shot
+- schema_injection_depth=full
+- model=qwen_72b_instruct

@@ -1,0 +1,3 @@
+- benchmark.dataset_path=data/dump_lcquad_2_0.json
+- schema_injection_depth=no_schema
+- model=qwen_7b_coder

@@ -1,0 +1,97 @@
+Overview FEW SHOT Prompting:
+\[\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3}\]\[[^\]]+\]\[[^\]]+\]\s*-\s*
+DAUER: ~2h
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+						RUN 1:
+
+EVALUATION SUMMARY
+========================================================
+Dataset Total:         30226
+Dropped:               6341 (20.98%)
+Evaluated Subset (N):  23885
+--------------------------------------------------------
+Strict Execution Accuracy:  0.3020
+Test-Suite Pass Rate:       0.3719
+Stratified TPR:             {'signal': 0.3185026468364003, 'noise_decoy': 0.31235470408649135, 'noise_stress': 0.3029297257933507, 'inversion': 0.3327027367890024, 'empty': 0.9014397850816438}
+Signal Accuracy:            0.3174
+Robustness Score:           0.3779
+Avg Jaccard Similarity:     0.3745
+Isomorphismus-Fehler:       0.00%
+Syntaktische Validität:	 99.82%
+--------------------------------------------------------
+ZUSÄTZLICHE METRIKEN & LOGS
+--------------------------------------------------------
+Schema-Konformität:    99.19%
+Halluzinationsrate:    0.81% (Vocabulary Fehler)
+Algebraische Äquivalenz: 0.00%
+Reification Mismatch Rate (bei False Negatives): 0.00%
+--------------------------------------------------------
+PERFORMANCE METRIKEN
+--------------------------------------------------------
+Avg TTFT (Latenz):     0.1834 s
+Avg Throughput (TPS):  17.34 tokens/s
+========================================================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+						RUN 2:
+
+EVALUATION SUMMARY
+========================================================
+Dataset Total:         30226
+Dropped:               6341 (20.98%)
+Evaluated Subset (N):  23885
+--------------------------------------------------------
+Strict Execution Accuracy:  0.3021
+Test-Suite Pass Rate:       0.3721
+Stratified TPR:             {'signal': 0.3188405797101449, 'noise_decoy': 0.31246936918014423, 'noise_stress': 0.3030735839809564, 'inversion': 0.33278688524590166, 'empty': 0.9015822386368405}
+Signal Accuracy:            0.3178
+Robustness Score:           0.3781
+Avg Jaccard Similarity:     0.3747
+Isomorphismus-Fehler:       0.00%
+Syntaktische Validität:	 99.83%
+--------------------------------------------------------
+ZUSÄTZLICHE METRIKEN & LOGS
+--------------------------------------------------------
+Schema-Konformität:    99.17%
+Halluzinationsrate:    0.83% (Vocabulary Fehler)
+Algebraische Äquivalenz: 0.00%
+Reification Mismatch Rate (bei False Negatives): 0.00%
+--------------------------------------------------------
+PERFORMANCE METRIKEN
+--------------------------------------------------------
+Avg TTFT (Latenz):     0.1832 s
+Avg Throughput (TPS):  17.34 tokens/s
+========================================================
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+						RUN 3:
+
+EVALUATION SUMMARY
+========================================================
+Dataset Total:         30226
+Dropped:               6341 (20.98%)
+Evaluated Subset (N):  23885
+--------------------------------------------------------
+Strict Execution Accuracy:  0.3015
+Test-Suite Pass Rate:       0.3710
+Stratified TPR:             {'signal': 0.3177998151105135, 'noise_decoy': 0.31141272375829904, 'noise_stress': 0.302294310446256, 'inversion': 0.3316654753395282, 'empty': 0.9004198152812762}
+Signal Accuracy:            0.3166
+Robustness Score:           0.3770
+Avg Jaccard Similarity:     0.3736
+Isomorphismus-Fehler:       0.00%
+Syntaktische Validität:99.80%
+--------------------------------------------------------
+ZUSÄTZLICHE METRIKEN & LOGS
+--------------------------------------------------------
+Schema-Konformität:    99.19%
+Halluzinationsrate:    0.81% (Vocabulary Fehler)
+Algebraische Äquivalenz: 0.00%
+Reification Mismatch Rate (bei False Negatives): 0.00%
+--------------------------------------------------------
+PERFORMANCE METRIKEN
+--------------------------------------------------------
+Avg TTFT (Latenz):     0.1846 s
+Avg Throughput (TPS):  17.24 tokens/s
+========================================================
