@@ -32,6 +32,7 @@ data/
 *.xml
 *.ttl
 *.bz2
+!src/data
 
 # Experiment-Logs, Performanzdaten und Cache
 # Inferenz-Latenzen, Durchsatz-Messungen und vLLM-Caches gehören lokal separiert
