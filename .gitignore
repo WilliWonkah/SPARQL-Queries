@@ -33,6 +33,7 @@ data/
 *.ttl
 *.bz2
 !src/data
+!sh_files/data
 !outputs/sonstiges/detailed_results.json
 
 # Experiment-Logs, Performanzdaten und Cache
