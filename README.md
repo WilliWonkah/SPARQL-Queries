@@ -1,6 +1,6 @@
 # 🎓 Bachelorarbeit: Optimierung der LLM-basierten SPARQL-Generierung
 
-[![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
+[![Python Version](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Dieses Repository enthält den Code, die Daten und die Auswertungsskripte für meine Bachelorarbeit. Die Arbeit untersucht die Generierung von SPARQL-Abfragen durch Large Language Models (LLMs) mit besonderem Fokus auf Prompting-Strategien, Kontext-Optimierung und den Auswirkungen von Modell-Quantisierung.
@@ -169,6 +169,6 @@ sbatch sh_files/data/evaluate_coverage.sh
 ---
 
 ## ✍️ Autor
-**[Lars Willi]**  
-Bachelorarbeit im Studiengang [Computational and Data Science]  
-[Fachhochschule Graubünden]
+**Lars Willi**  
+Bachelorarbeit im Studiengang Computational and Data Science
+Fachhochschule Graubünden
