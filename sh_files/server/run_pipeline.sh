@@ -9,14 +9,14 @@
 #SBATCH --gres=gpu:a100:2
 #SBATCH --time=24:00:00
 
-PROJECT_DIR="/home/willilars@edu.local/Coding/Bachelor-Projekt"
+PROJECT_DIR="..." # HIER ANPASSEN
 cd $PROJECT_DIR
 
 source .venv/bin/activate
 export PYTHONPATH=$PROJECT_DIR
 
 PORT=8000
-export VLLM_CACHE_ROOT="/tmp/willilars/.vllm_cache"
+export VLLM_CACHE_ROOT="/.vllm_cache"
 export HF_HOME="$VLLM_CACHE_ROOT"
 export CUBLAS_WORKSPACE_CONFIG=:4096:8
 export VLLM_ATTENTION_BACKEND=XFORMERS
@@ -95,7 +95,7 @@ sleep 3
 # =========================================================================
 # 4. MODELL KOPIEREN (falls nötig)
 # =========================================================================
-LOCAL_MODEL_PATH="/tmp/willilars/models/${MODEL_NAME}"
+LOCAL_MODEL_PATH="/models/${MODEL_NAME}"
 SOURCE_MODEL_PATH="$PROJECT_DIR/models/${MODEL_NAME}"
 
 if [ ! -d "$LOCAL_MODEL_PATH" ]; then

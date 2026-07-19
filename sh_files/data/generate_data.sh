@@ -12,7 +12,7 @@
 export OMP_NUM_THREADS=32
 export OPENBLAS_NUM_THREADS=32
 
-PROJECT_DIR="/home/willilars@edu.local/Coding/Bachelor-Projekt"
+PROJECT_DIR="..." # HIER ANPASSEN
 cd $PROJECT_DIR
 
 echo "🚀 Starte Pre-Processing: Generierung der Test-Suites (Mock-Graphen)..."

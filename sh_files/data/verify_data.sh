@@ -8,7 +8,7 @@
 #SBATCH --cpus-per-task=16             
 #SBATCH --time=01:00:00               
 
-PROJECT_DIR="/home/willilars@edu.local/Coding/Bachelor-Projekt"
+PROJECT_DIR="..." # HIER ANPASSEN
 cd $PROJECT_DIR
 
 echo "🚀 Starte Verifikation der generierten Test-Suites (Mock-Graphen)..."

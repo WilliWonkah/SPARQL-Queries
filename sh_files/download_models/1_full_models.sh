@@ -10,8 +10,8 @@
 #SBATCH --time=24:00:00
 
 # === Konfiguration ===
-PROJECT_DIR="/home/willilars@edu.local/Coding/Bachelor-Projekt"
-TARGET_DIR="/tmp/willilars/models"
+PROJECT_DIR="..." # HIER ANPASSEN
+TARGET_DIR="models/"
 
 # === Umgebung aktivieren (venv mit uv) ===
 cd "$PROJECT_DIR" || { echo "✗ Projektverzeichnis nicht gefunden: $PROJECT_DIR"; exit 1; }
