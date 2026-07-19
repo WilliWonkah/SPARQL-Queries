@@ -1,0 +1,56 @@
+# ==========================================
+# 1. PYTHON STANDARD (nach GitHub-Vorlage)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv/
+spyderproject/
+.pytest_cache/
+
+# ==========================================
+# 2. PROJEKTSPEZIFISCHE AKADEMISCHE AUSNAHMEN
+# ==========================================
+
+# Lokale LLM-Gewichte & Quantisierungsdateien (AWQ, GPTQ, GGUF)
+# Verhindert das unabsichtliche Hochladen von Gigabytes an Modelldaten
+models/
+*.safetensors
+*.bin
+*.gguf
+
+# Lokale Benchmark-Datensätze & Rohdaten (QALD, LC-QuAD, Logs)
+# Verhindert Speicherplatzprobleme und stellt Datenseparation sicher
+data/
+*.json
+*.csv
+*.xml
+*.ttl
+*.bz2
+
+# Experiment-Logs, Performanzdaten und Cache
+# Inferenz-Latenzen, Durchsatz-Messungen und vLLM-Caches gehören lokal separiert
+cache/
+.cache/
+vllm_cache/
+.vllm_cache/
+
+# Infrastruktur & Sicherheitsrelevante Daten
+# GPU-Server-Zugangsdaten, API-Schlüssel oder spezifische Umgebungsvariablen
+.env.local
+config/secrets.json
+
+# IDE & OS spezifische Dateien
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Explorative Notebooks, temporäre Skripte & Sonstiges
+notebooks/
+temp/
