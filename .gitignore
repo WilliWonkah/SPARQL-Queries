@@ -33,6 +33,7 @@ data/
 *.ttl
 *.bz2
 !src/data
+!outputs/sonstiges/detailed_results.json
 
 # Experiment-Logs, Performanzdaten und Cache
 # Inferenz-Latenzen, Durchsatz-Messungen und vLLM-Caches gehören lokal separiert
